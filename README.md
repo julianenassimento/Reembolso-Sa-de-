@@ -111,6 +111,7 @@ O sistema fornece justificativa clara para:
 
 ## 📁 Estrutura do Projeto
 
+```
 reembolso-saude-plus/
 │
 ├── app.py
@@ -118,28 +119,25 @@ reembolso-saude-plus/
 ├── README.md
 │
 ├── config/
-│ └── rules.json
+│   └── rules.json
 │
 ├── engine/
-│ ├── rule_engine.py
-│ ├── scoring.py
-│ ├── classifier.py
-│ └── autoexec.py
+│   ├── rule_engine.py
+│   ├── scoring.py
+│   └── autoexec.py
 │
 ├── llm/
-│ └── extractor.py
+│   └── extractor.py
 │
 ├── models/
-│ └── request_model.py
+│   └── request_model.py
 │
 ├── utils/
-│ └── helpers.py
+│   └── helpers.py
 │
 └── data/
-└── mock_plans.json
-
-
----
+    └── mock_plans.json
+```
 
 ## 📊 Impacto Operacional Simulado
 
